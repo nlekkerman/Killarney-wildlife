@@ -122,47 +122,6 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
-#index-content {
-    color: #0b3e01;
-    width:100%;
-    margin: 20px auto;
-}
-
-.image-gallery {
- 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 0;
-}
-
-.image-gallery img {
-    max-width: 100%; /* Ensure images don't exceed their container's width */
-    height: auto; /* Maintain the image's aspect ratio */
-    margin: 0; /* Remove any default margin */
-    display: block; /* Remove any potential extra spacing caused by inline elements */
-    width: 100%;
-    
-}
-#cultural-events-container {
-    display: flex;
-  
-    align-items: center;
-}
-
-.event {
-    text-align: center;
-}
-
-.event img {
-    max-width: 100%;
-    height: auto;
-    
-}
-
-.event h3 {
-    margin: 10px 0;
-}
-
 /* Footer */
 #social-networks {
     position: fixed;
@@ -189,44 +148,25 @@ main {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    .image-gallery{
-         
-        column-count: 2;
-        column-gap: 0;
-    
-}
+   
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    .image-gallery{
-         
-            column-count: 3;
-            column-gap: 0;
-        
-    }
+   
+   
    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    .image-gallery{
-         
-        column-count: 4;
-        column-gap: 0;
     
 }
    
-}
+
 
 @media screen and (min-width: 1200px) {    
-    /* Reasons section */
-    .image-gallery{
-         
-        column-count: 5;
-        column-gap: 0;
     
-}
+
     
 }
